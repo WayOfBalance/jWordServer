@@ -6,6 +6,6 @@ func routes(_ app: Application) throws {
     }
 
     app.get("hello") { req async -> String in
-        "___!___!"
+        "Олечка привет я создал и запустил нам наш первый сервер"
     }
 }
